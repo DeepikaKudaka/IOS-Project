@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryName" representedClassName="CategoryName" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ItemList" representedClassName="ItemList" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CategoryName" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="ItemList" positionX="-54" positionY="0" width="128" height="90"/>
+    </elements>
+</model>
